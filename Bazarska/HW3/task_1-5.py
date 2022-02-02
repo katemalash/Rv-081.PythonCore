@@ -9,8 +9,8 @@ print('y = ', second_number)
 
 #calculator
 bytes_number = int(input('Enter value in bytes '))
-kilobytes_number = bytes_number / 1024
-megabytes_number = bytes_number / 1000000
+kilobytes_number = bytes_number / 2**10
+megabytes_number = bytes_number / 2**20
 print(bytes_number, 'is equal to ', kilobytes_number, 'kilobytes')
 print(bytes_number, 'is equal to ', megabytes_number, 'megabytes')
 
