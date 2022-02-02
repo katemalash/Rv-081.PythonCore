@@ -1,4 +1,5 @@
-#1
+#1 For each philatelist, I created a dictionary, where the name of the collection is the key and the name of  marks
+#holding in tuples
 philatelist_1 = {
     'cats':('grey', 'white','black','black-white'),
     'cars':('Opel','Mazda'),
@@ -16,7 +17,7 @@ philatelist_2['cars'] =temp
 print(philatelist_1)
 print(philatelist_2)
 
-#2
+#2 If we need save information only about unique ones, then we hold items of marks in the set
 philatelist_3 = {
     'cats':{'grey', 'white','black','black-white'},
     'cars':{'Opel','Mazda'},
