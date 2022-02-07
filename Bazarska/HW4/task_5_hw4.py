@@ -14,3 +14,4 @@ if money % 200 > 0:
     print('1: ', sum4)
 else:
     print('error')
+    
