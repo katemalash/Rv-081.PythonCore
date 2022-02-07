@@ -15,3 +15,4 @@ elif final > hall:
     print('It can\'t be placed here')
 else:
     print('You have missed something')
+    

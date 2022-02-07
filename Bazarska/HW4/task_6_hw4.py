@@ -13,3 +13,4 @@ elif seat % 2 == 1:
     print('Bottom seat')
 else: 
     print('Try again')
+    
