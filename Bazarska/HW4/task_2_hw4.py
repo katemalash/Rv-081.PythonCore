@@ -23,12 +23,3 @@ elif question == 'C':
     print('Circle area equals to', circle_area, 'cm²')
 else:
     print('Invalid choice')
-
-
-
-
-
-
-
-
-
