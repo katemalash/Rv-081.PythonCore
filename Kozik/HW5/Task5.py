@@ -25,6 +25,3 @@ while user_number != number_h and user_number != number_p:
 print(f'\nSum of numbers less than P: {sum_of_numbers_less_than_p}\n'
       f'Multiplication of numbers greater than H: {multiplication_of_numbers_greater_than_h}\n'
       f'Amount of numbers between P and H: {amount_of_numbers_between_p_and_h}')
-
-
-
