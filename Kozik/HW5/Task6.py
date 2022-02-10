@@ -1,0 +1,23 @@
+dict_of_user_numbers = {'Negative': 0, 'Positive': 0}
+
+while True:
+
+    user_number = int(input('Enter number: '))
+
+    if user_number < 0:
+
+        dict_of_user_numbers['Negative'] += 1
+
+    elif user_number > 0:
+
+        dict_of_user_numbers['Positive'] += 1
+
+    else:
+
+        print('You have exited the program.')
+        break
+
+summ = dict_of_user_numbers['Negative'] + dict_of_user_numbers['Positive']
+
+print(f"\nNegative - { dict_of_user_numbers['Negative'] / (summ/100)}%\n"
+      f"Positive - {(dict_of_user_numbers['Positive'] / (summ/100))}%")
