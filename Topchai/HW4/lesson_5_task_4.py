@@ -7,6 +7,7 @@ import math
 
 
 print("\nThis program determine if possible to place a round stage to the square hall with specific parameters so there was enough space for specific passage.\n")
+
 roundStageRadius = int(input("Please enter the radius of round stage: "))
 squareHallArea = int(input("Please enter the area of square hall: "))
 passageSize = int(input("Please enter the size of passage you need: "))
