@@ -1,0 +1,12 @@
+a=input("a=")
+b=input("b=")
+inta=int(a)
+intb=int(b)
+add_var=inta+intb
+sub_var=inta-intb
+mult_var=inta*intb
+div_var=inta/intb
+print("a+b=",add_var)
+print("a-b=",sub_var)
+print("a*b=",mult_var)
+print("a/b=",div_var)
