@@ -16,19 +16,19 @@ while start == 1:
         positiveNumbers += 1
         numberCount += 1
    
-        print(f"\n     Postitive entries: {positiveNumbers/(numberCount/100)}%\n     Negative entries: {negativeNumbers/(numberCount/100)}%\n")
+        print(f"\n     Postitive entries: {round((positiveNumbers/(numberCount/100)), 3)}%\n     Negative entries: {round((negativeNumbers/(numberCount/100)), 3)}%\n")
 
     elif enteredNumber < 0:
         
         negativeNumbers += 1
         numberCount += 1
 
-        print(f"\n     Postitive entries: {positiveNumbers/(numberCount/100)}%\n     Negative entries: {negativeNumbers/(numberCount/100)}%\n")
+        print(f"\n     Postitive entries: {round((positiveNumbers/(numberCount/100)), 3)}%\n     Negative entries: {round((negativeNumbers/(numberCount/100)), 3)}%\n")
 
     else:
         break
 
 print(f"""
-Postitive entries: {positiveNumbers/(numberCount/100)}%
-Negative entries: {negativeNumbers/(numberCount/100)}%
+Postitive entries: {round((positiveNumbers/(numberCount/100)), 3)}%
+Negative entries: {round((negativeNumbers/(numberCount/100)), 3)}%
 """)
