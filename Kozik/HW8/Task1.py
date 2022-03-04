@@ -12,7 +12,10 @@ def arithmetic_operation(first_num, second_num, ar_operation):
         result = first_num * second_num
 
     elif ar_operation == '/':
-        result = first_num / second_num
+        if second_num != 0:
+            result = first_num / second_num
+        else:
+            result = 'Division by zero'
 
     return result
 

@@ -5,17 +5,10 @@ def validation_date(day, month, year):
     """This function validation date and return 'True' or 'False'."""
 
     flag = False
-    check_month = True if 1 <= month < 13 else False
-    check_year = True if year >= 1 else False
+    number_of_month = {1: 31, 2: 29 if is_year_leap(year) else 28, 3: 31, 4: 30, 5: 31, 6: 30,
+                       7: 31, 8: 31, 9: 30, 10: 31, 11: 30, 12: 31}
 
-    if 1 >= day <= 28 and month and year:
-        flag = True
-
-    elif month and 30 <= day <= 31 and \
-            ((month < 6 and month % 2 == 0) or (month >= 6 and month % 2 == 1)):
-        flag = True
-
-    elif day == 29 and month == 2 and is_year_leap(year):
+    if month in number_of_month.keys() and day in range(1, number_of_month[month] + 1) and year >= 1:
         flag = True
 
     return flag
