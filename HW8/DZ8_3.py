@@ -1,8 +1,8 @@
-monthThirtyOne = [1, 3, 5, 7, 8, 10, 12]
-monthThirty = [4, 6, 9, 11]
-
 
 def date(day, month, year):
+    monthThirtyOne = [1, 3, 5, 7, 8, 10, 12]
+    monthThirty = [4, 6, 9, 11]
+    
     if day <= 31 and month in monthThirtyOne:
         return True
     elif day <= 30 and month in monthThirty:
