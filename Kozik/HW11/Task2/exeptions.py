@@ -1,0 +1,2 @@
+class LessTwoError(Exception):
+    pass
