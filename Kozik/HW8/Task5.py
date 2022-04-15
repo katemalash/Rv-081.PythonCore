@@ -6,6 +6,7 @@ def is_year_leap(year):
     return result
 
 
-# year_of_user = int(input('Enter year: '))
+if __name__ == "__main__":
 
-# print(is_year_leap(year_of_user))
+    year_of_user = int(input('Enter year: '))
+    print(is_year_leap(year_of_user))
