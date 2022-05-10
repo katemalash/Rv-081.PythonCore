@@ -1,0 +1,439 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(0, 0, 0);
+    background-image: url("Star-Wars-Background-3.jpg");
+    background-attachment: fixed;
+}
+
+body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Saira Condensed', sans-serif;
+    color: white;
+}
+
+h1 {
+    margin: 5px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 0px rgba(253, 253, 253, 0.2);
+    color: rgba(255,254,0,255)
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit
+}
+
+.main-info {
+    width: 800px;
+    margin: auto;
+    text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.2);
+}
+
+.main-info p {
+    text-align: justify;
+    font-size: 25px;
+    color: rgba(255,254,0,255)
+}
+
+/* nav */
+.navbar {
+    background-color: black;
+    color: white;
+
+    font-size: 25px;
+}
+
+/* ul */
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+  
+/* li */
+.nav-item {
+    float: left;
+}
+
+/* a */
+.nav-link{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-item p{
+    padding: 13px 16px;
+}
+
+  
+.nav-item a:hover, a:active {
+    color: rgb(204,156,92);
+  }
+
+.main-image {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-image {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* content */
+
+.movie-block-b1 {
+    width: 1100px;
+    height: 1500px;
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    color:aliceblue;
+}
+
+.movie-block-b2 {
+    width: 1100px;
+    height: 300px;
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    color:aliceblue;
+
+}
+
+.card {
+    background-color: black;
+    border-radius: 15px;
+
+}
+
+.b1 {
+    width: 540px;
+    height: 290px;
+    left: 5px;
+    top: 5px;
+    position: absolute;
+    line-height: 290px;
+    display: block;
+
+
+}
+
+.b2 {
+    width: 540px;
+    height: 290px;
+    left: 555px;
+    top: 5px;
+    position: absolute;
+    line-height: 290px;
+    display: block;
+
+}
+
+.b3 {
+    width: 540px;
+    height: 290px;
+    left: 5px;
+    top: 305px;
+    position: absolute;
+    line-height: 290px;
+    display: block;
+
+}
+
+.b4 {
+    width: 540px;
+    height: 290px;
+    left: 555px;
+    top: 305px;
+    position: absolute;
+    line-height: 290px;
+    display: block;
+
+}
+
+.b5 {
+    width: 540px;
+    height: 290px;
+    left: 5px;
+    top: 605px;
+    position: absolute;
+    line-height: 290px;
+    display: block;
+
+}
+
+.b6 {
+    width: 540px;
+    height: 290px;
+    left: 555px;
+    top: 605px;
+    position: absolute;
+    line-height: 290px;
+
+}
+
+.b7 {
+    width: 540px;
+    height: 290px;
+    left: 5px;
+    top: 905px;
+    position: absolute;
+    line-height: 290px;
+
+}
+
+.b8 {
+    width: 540px;
+    height: 290px;
+    left: 555px;
+    top: 905px;
+    position: absolute;
+    line-height: 290px;
+
+}
+
+.b9 {
+    width: 540px;
+    height: 290px;
+    left: 250px;
+    top: 1205px;
+    position: absolute;
+    line-height: 290px;
+    display: block;
+
+}
+
+.b10 {
+    width: 540px;
+    height: 290px;
+    left: 5px;
+    top: 5px;
+    position: absolute;
+    line-height: 290px;
+    display: block;
+
+}
+
+.b11 {
+    width: 540px;
+    height: 290px;
+    left: 555px;
+    top: 5px;
+    position: absolute;
+    line-height: 290px;
+    display: block;
+    
+
+}
+
+.card-image {
+    width: 200px;
+    height: 290px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    line-height: 290px;
+    display: block;
+    background-color: black;
+    border-radius: 15px;
+
+}
+
+.poster-image {
+    width: 180px;
+    height: 280px;
+    left: 5px;
+    top: 5px;
+    position: absolute;
+    border-radius: 10px;
+
+}
+
+.card-body {
+    width: 340px;
+    height: 290px;
+    left: 205px;
+    top: 5px;
+    position: absolute;
+    line-height: 25px;
+    display: block;
+    text-shadow: 2px 1px 1px rgb(27, 62, 139);
+    
+}
+
+/* content fonts */
+
+.card-body h2 {
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.card-body p {
+    text-align: left;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.movie-block-b2 p {
+    font-size: 15px;
+}
+
+/* animation */
+
+.card {
+    text-align: center;
+    animation: .4s linear;
+    animation-fill-mode: forwards;
+}
+
+.card:hover {
+    z-index: 100;
+    animation: scale 0.4s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scaledown {
+    0%{
+        -webkit-transoform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {
+        -webkit-transoform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+@keyframes scale {
+    0%{
+        -webkit-transoform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transoform: scale(1.1);
+        transform: scale(1.1);
+        box-shadow: rgb(204,156,92) 0px 1px 4px, rgb(204,156,92) 0px 0px 0px 7px;
+    }
+}
+
+/* movie page */
+
+.movie-block-b3 {
+    width: 1100px;
+    height: 605px;
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    color:rgb(255, 255, 255);
+    background-color: rgb(204,156,92);
+    border-radius: 10px;
+}
+
+.movie-page {
+    width: 700px;
+    height: 605px;
+    left: 400px;
+    top: 0px;
+    position: absolute;
+    display: block;
+}
+
+.movie-page-content {
+    width: 695px;
+    height: 595px;
+    left: 0px;
+    top: 5px;
+    position: absolute;
+    background-color: rgb(96, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 21px;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+}
+
+.movie-image {
+    width: 400px;
+    height: 605px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    display: block;
+
+}
+
+.movie-image-image {
+    width: 390px;
+    height: 595px;
+    left: 5px;
+    top: 5px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.movie-h1 {
+    color:rgb(255, 255, 255);
+}
+
+strong {
+    color:rgb(204,156,92)
+}
+
+/* login page */
+
+.login-block {
+    width: 500px;
+    height: 200px;
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    background-color: rgb(52, 52, 52);
+    border-radius: 10px;
+}
+
+.login-form {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.login-form input {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-form button {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+

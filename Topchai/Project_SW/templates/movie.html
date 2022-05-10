@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}{{title}}{% endblock %}
+{% block content %}
+<h1 class="movie-h1">{{name}}</h1>
+<div class="movie-block-b3">
+    <div class="movie-image">
+        {% if movie == "EP1" %}
+            <img src="static/images/Star-Wars-The-Phantom-Menace-I.webp" class="movie-image-image" alt="...">
+        {% elif movie == "EP2" %}
+            <img src="static/images/Star-Wars-Attack-Clones-II.webp" class="movie-image-image" alt="...">
+        {% elif movie == "EP3" %}
+            <img src="static/images/Star-Wars-Revenge-Sith-III.jpeg" class="movie-image-image" alt="...">
+        {% elif movie == "EP4" %}
+            <img src="static/images/Star-Wars-New-Hope-IV.webp" class="movie-image-image" alt="...">
+        {% elif movie == "EP5" %}
+            <img src="static/images/Star-Wars-The-Empire-Strikes-Back-V.webp" class="movie-image-image" alt="...">
+        {% elif movie == "EP6" %}
+            <img src="static/images/Star-Wars-Return-Of-The-Jedi-VI.jpeg" class="movie-image-image" alt="...">
+        {% elif movie == "EP7" %}
+            <img src="static/images/Star-Wars-The-Force-Awakens-VII.webp" class="movie-image-image" alt="...">
+        {% elif movie == "EP8" %}
+            <img src="static/images/Star-Wars-The-Last-Jedi-VIII.jpeg" class="movie-image-image" alt="...">
+        {% elif movie == "EP9" %}
+            <img src="static/images/Star-Wars-The-Rise-Of-Skywalker-IX.jpeg" class="movie-image-image" alt="...">
+        {% elif movie == "SO1" %}
+            <img src="static/images/Star-Wars-Rogue-One.webp" class="movie-image-image" alt="...">
+        {% elif movie == "SO2" %}
+            <img src="static/images/Star-Wars-Solo.jpeg" class="movie-image-image" alt="...">
+        {% endif %}
+    </div>
+    <div class="movie-page">
+        <div class = "movie-page-content">
+            <p><strong>Episod:</strong> {{episod}}</p>
+            <p><strong>Release year:</strong> {{year}}</p>
+            <p><strong>IMDB Rating:</strong> {{rating}}</p>
+            <p><strong>Writers:</strong> {{writer}}</p>
+            <p><strong>Actors:</strong> {{actors}}</p>
+            <p><strong>Storyline:</strong><br>{{storyline}}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
